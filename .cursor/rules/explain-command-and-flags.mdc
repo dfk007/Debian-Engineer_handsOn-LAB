@@ -1,0 +1,18 @@
+---
+alwaysApply: true
+---
+Rule Name: explain-command-and-flags
+
+When showing any shell/CLI command, always provide:
+- A short, plain-English summary describing what the command does.
+- A brief explanation of each flag used in the command.
+- Keep explanations clear and concise.
+
+Optional: To add this rule to your project using `.cursorrules`:
+- Create a `.cursorrules` file at the project root and add:
+  - For any shell/CLI command shown, also provide:
+    - A short plain-English summary of what it does.
+    - A brief explanation of each flag.
+    - Keep explanations concise and non-jargony.
+
+Status: Enabled globally for my replies; steps above show how to enforce in Cursor for all projects.

@@ -1,0 +1,38 @@
+# Docker Practice Checklist
+
+* [ ] Docker installation and verification (docker version, docker info, hello-world)
+* [ ] Basic container operations (run, stop, start, restart, rm, ps, ps -a, images)
+* [ ] Container inspection and debugging (inspect, top, stats, logs, exec)
+* [ ] Dockerfile basics (FROM, COPY, ADD, RUN, CMD, ENTRYPOINT, EXPOSE, WORKDIR, USER)
+* [ ] Image building (docker build, tags, history, layer inspection)
+* [ ] Multi-stage builds (reduce image size, distroless images)
+* [ ] Layer caching optimization (dependency-first COPY strategy)
+* [ ] Non-root user configuration (adduser, USER directive)
+* [ ] Resource limits (memory, CPU, pids-limit constraints)
+* [ ] Environment variables (-e flag, .env files)
+* [ ] Restart policies (no, on-failure, always, unless-stopped)
+* [ ] Healthchecks (HEALTHCHECK directive, intervals, retries)
+* [ ] Volumes (named volumes, bind mounts, volume create, inspect, backup/restore)
+* [ ] Networking (default bridge, custom networks, network create, inspect)
+* [ ] Service discovery (DNS-based container name resolution)
+* [ ] Network troubleshooting (exec with curl/nslookup, network inspection)
+* [ ] Docker Compose (docker-compose.yml, up, down, logs, ps, build, scale)
+* [ ] Compose services, volumes, networks, depends_on
+* [ ] Compose secrets and configs
+* [ ] Content Trust (DOCKER_CONTENT_TRUST, digest-based pulls)
+* [ ] Multi-architecture builds (buildx, --platform flag)
+* [ ] Private registry (login, push, pull, tag)
+* [ ] Local registry (registry:2 container, localhost:5000)
+* [ ] Image promotion by digest (staging to prod without rebuild)
+* [ ] Docker Swarm (swarm init, node ls, service create/update/scale/rm)
+* [ ] Swarm services (replicas, update strategies, rolling updates)
+* [ ] Swarm secrets (create, use in services, update)
+* [ ] Swarm configs (create, use in services, versioning)
+* [ ] Overlay networks (multi-host networking)
+* [ ] Security best practices (slim images, non-root, content trust, scanning)
+* [ ] Logging drivers (json-file, syslog, journald, external)
+* [ ] Container cleanup (prune commands, system cleanup)
+* [ ] Troubleshooting scenarios (crashes, networking, resource issues)
+* [ ] Practice scenarios (multi-stage builds, zero-downtime updates, secret management)
+* [ ] Test day preparation and checklist review
+

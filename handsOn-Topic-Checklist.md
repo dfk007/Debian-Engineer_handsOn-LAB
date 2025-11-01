@@ -7,4 +7,4 @@
 * [ ] Docker (installation, basic commands, Dockerfile, docker-compose)
 * [ ] CI/CD (Git workflows, branches/merges/conflicts, GitHub Actions workflow)
 * [ ] Scenario drills (slow boot/systemd, disk space cleanup, service failure recovery)
-* [ ] Practice plan and test-day checklist
+* [ ] ##### Practice plan and test-day checklist

@@ -1,0 +1,4 @@
+  - For any shell/CLI command shown, also provide:
+    - A short plain-English summary of what it does.
+    - A brief explanation of each flag.
+    - Keep explanations concise and non-jargony.
